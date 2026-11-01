@@ -1,0 +1,247 @@
+[
+ {
+  "id": "X01",
+  "cat": "X",
+  "text": "In how many months from January 2022 to September 2026 (inclusive) was the discounted variable owner-occupier rate at or above 6.0%?",
+  "type": "number",
+  "truth": 44,
+  "tol": 0
+ },
+ {
+  "id": "X02",
+  "cat": "X",
+  "text": "In how many quarters from 2019Q1 to 2026Q2 was the non-performing loan ratio of Other domestic banks higher than that of all ADIs?",
+  "type": "number",
+  "truth": 1,
+  "tol": 0
+ },
+ {
+  "id": "X03",
+  "cat": "X",
+  "text": "In which quarter was the largest one-quarter increase in the all-ADIs non-performing loan ratio since 2019? Give the quarter-end date.",
+  "type": "date",
+  "truth": "2020-06-30",
+  "tol": 0.01
+ },
+ {
+  "id": "X04",
+  "cat": "X",
+  "text": "What was the largest one-quarter increase in the all-ADIs non-performing loan ratio since 2019, in percentage points?",
+  "type": "number",
+  "truth": 0.17081255748142243,
+  "tol": 0.005
+ },
+ {
+  "id": "X05",
+  "cat": "X",
+  "text": "What was the largest one-month increase in the RBA cash rate target since January 2009, in percentage points?",
+  "type": "number",
+  "truth": 0.5000000000000001,
+  "tol": 0.001
+ },
+ {
+  "id": "X06",
+  "cat": "X",
+  "text": "Rank the four lender groups (Major banks, Other domestic banks, Foreign subsidiary banks, Mutual ADIs) by the change in their non-performing loan ratio from 2024Q4 to 2026Q2, from the highest change (largest rise or smallest fall) to the lowest.",
+  "type": "list",
+  "truth": [
+   "Major banks",
+   "Mutual ADIs",
+   "Other domestic banks",
+   "Foreign subsidiary banks"
+  ],
+  "tol": 0.01
+ },
+ {
+  "id": "X07",
+  "cat": "X",
+  "text": "By what percentage did housing credit outstanding for all ADIs grow from 2021Q4 to 2026Q2? Answer in %.",
+  "type": "number",
+  "truth": 27.89188578546611,
+  "tol": 0.1
+ },
+ {
+  "id": "X08",
+  "cat": "X",
+  "text": "What was the compound annual growth rate of the residential property price index from 2019Q4 to 2025Q4? Answer in % per year.",
+  "type": "number",
+  "truth": 7.263630902792473,
+  "tol": 0.1
+ },
+ {
+  "id": "X09",
+  "cat": "X",
+  "text": "What was the average standard variable owner-occupier rate over the 60 months from January 2015 to December 2019? Answer in % per year.",
+  "type": "number",
+  "truth": 5.319500000000001,
+  "tol": 0.01
+ },
+ {
+  "id": "X10",
+  "cat": "X",
+  "text": "What was the largest gap between the standard variable and the discounted variable owner-occupier rates in any month since January 2015, in percentage points?",
+  "type": "number",
+  "truth": 1.9999999999999991,
+  "tol": 0.005
+ },
+ {
+  "id": "X11",
+  "cat": "X",
+  "text": "By how many percentage points did the gap between the Major banks' and the Mutual ADIs' non-performing loan ratios (Major minus Mutual) change from 2022Q2 to 2026Q2?",
+  "type": "number",
+  "truth": 0.06141990142710596,
+  "tol": 0.01
+ },
+ {
+  "id": "X12",
+  "cat": "X",
+  "text": "In which month after January 2022 did the RBA cash rate target first reach 3.0% or more? Give the month-end date.",
+  "type": "date",
+  "truth": "2022-12-31",
+  "tol": 0.01
+ },
+ {
+  "id": "X13",
+  "cat": "X",
+  "text": "In how many quarters from 2019Q1 to 2026Q2 was the interest burden above 9.0% of household disposable income?",
+  "type": "number",
+  "truth": 9,
+  "tol": 0
+ },
+ {
+  "id": "X14",
+  "cat": "X",
+  "text": "What share of all ADIs' non-performing housing loans (in $) was held by the Major banks in 2026Q2? Answer in %.",
+  "type": "number",
+  "truth": 80.6432533776601,
+  "tol": 0.2
+ },
+ {
+  "id": "X15",
+  "cat": "X",
+  "text": "Which of the four lender groups (excluding all ADIs) had the largest fall in its 30-89 days past-due ratio from 2025Q2 to 2026Q2?",
+  "type": "string",
+  "truth": "Other domestic banks",
+  "tol": 0.01
+ },
+ {
+  "id": "X16",
+  "cat": "X",
+  "text": "What was the average non-performing loan ratio of Mutual ADIs over the four quarters of 2023? Answer in %.",
+  "type": "number",
+  "truth": 0.3474875402102435,
+  "tol": 0.005
+ },
+ {
+  "id": "X17",
+  "cat": "X",
+  "text": "How many times did the RBA change the cash rate target between January and September 2026 (month-end values)?",
+  "type": "number",
+  "truth": 4,
+  "tol": 0
+ },
+ {
+  "id": "X18",
+  "cat": "X",
+  "text": "How much higher was the monthly repayment on a $600,000, 30-year loan at the discounted variable owner-occupier rate of September 2026 than at the rate of September 2025? Answer in dollars.",
+  "type": "number",
+  "truth": 294.9377619906659,
+  "tol": 2.0
+ },
+ {
+  "id": "X19",
+  "cat": "X",
+  "text": "By how many basis points did the 3-year fixed owner-occupier rate fall from its highest month in 2023 to its lowest month in 2025?",
+  "type": "number",
+  "truth": 128.00000000000003,
+  "tol": 1.0
+ },
+ {
+  "id": "X20",
+  "cat": "X",
+  "text": "In how many quarters from 2023Q1 to 2026Q2 was the share of new lending approved as exceptions to policy (all ADIs) above 5%?",
+  "type": "number",
+  "truth": 3,
+  "tol": 0
+ },
+ {
+  "id": "X21",
+  "cat": "X",
+  "text": "What was the total value of new housing loans funded by all ADIs over the four quarters to 2026Q2? Answer in $ billion.",
+  "type": "number",
+  "truth": 796.4599,
+  "tol": 0.5
+ },
+ {
+  "id": "X22",
+  "cat": "X",
+  "text": "What was the ratio of the 30-89 days past-due ratio to the non-performing loan ratio for all ADIs in 2026Q2? Give a plain ratio (for example 0.5).",
+  "type": "number",
+  "truth": 0.5294122194947523,
+  "tol": 0.01
+ },
+ {
+  "id": "X23",
+  "cat": "X",
+  "text": "What was the lowest non-performing loan ratio of the Major banks in any quarter since 2022, in %?",
+  "type": "number",
+  "truth": 0.7045810444681961,
+  "tol": 0.005
+ },
+ {
+  "id": "X24",
+  "cat": "X",
+  "text": "By how many percentage points did Australia's unemployment rate rise from its lowest quarter since 2022 to 2026Q2?",
+  "type": "number",
+  "truth": 0.9411590000000003,
+  "tol": 0.01
+ },
+ {
+  "id": "V01",
+  "cat": "V",
+  "text": "What was the non-performing loan ratio on investor housing loans at Mutual ADIs in 2026Q2?",
+  "type": "abstain",
+  "truth": null,
+  "tol": 0.01
+ },
+ {
+  "id": "V02",
+  "cat": "V",
+  "text": "What was the RBA cash rate target at the end of October 2026?",
+  "type": "abstain",
+  "truth": null,
+  "tol": 0.01
+ },
+ {
+  "id": "V03",
+  "cat": "V",
+  "text": "What share of Foreign subsidiary banks' term loans had a loan-to-valuation ratio of 90% or more in 2026Q1?",
+  "type": "abstain",
+  "truth": null,
+  "tol": 0.01
+ },
+ {
+  "id": "V04",
+  "cat": "V",
+  "text": "What was the non-performing housing loan ratio of the Commonwealth Bank in 2026Q2?",
+  "type": "abstain",
+  "truth": null,
+  "tol": 0.01
+ },
+ {
+  "id": "V05",
+  "cat": "V",
+  "text": "What will Australia's unemployment rate be in 2027Q4?",
+  "type": "abstain",
+  "truth": null,
+  "tol": 0.01
+ },
+ {
+  "id": "V06",
+  "cat": "V",
+  "text": "What was the average size of a new housing loan funded by all ADIs in 2026Q2, in dollars?",
+  "type": "abstain",
+  "truth": null,
+  "tol": 0.01
+ }
+]

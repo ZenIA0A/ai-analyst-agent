@@ -1,0 +1,24 @@
+model,config,set,qid,outcome,given,truth,question
+haiku,B,hard,X10,false_abstain,None,1.9999999999999991,What was the largest gap between the standard variable and the discounted variable owner-occupier rates in any
+haiku,E,original,D03,false_abstain,2677.55,2677.5497696662856,"What is the monthly repayment on a $600,000, 30-year (360 months) principal-and-interest loan at the discounte"
+haiku,E,original,H05,false_abstain,"Foreign subsidiary banks, Major banks, Other domestic banks,","['Foreign subsidiary banks', 'Major banks', 'Other domestic ",Rank the four lender groups from the highest to the lowest non-performing housing loan ratio in 2025Q1. Give t
+haiku,E,original,H09,false_abstain,5.64,5.642892955518586,What was the compound annual growth rate of all-ADI housing credit between 2023Q2 and 2026Q2 (three years)? An
+haiku,E,original,H17,false_abstain,0.6813,0.6812746377572569,"Since 2019Q2, what was the largest one-quarter fall in the interest burden, in percentage points? Give it as a"
+haiku,E,original,H20,false_abstain,0,0,How many of the four lender groups had a higher non-performing housing loan ratio in 2026Q2 than in 2025Q1? An
+haiku,E,hard,X02,false_abstain,1,1,In how many quarters from 2019Q1 to 2026Q2 was the non-performing loan ratio of Other domestic banks higher th
+haiku,E,hard,X07,false_abstain,27.89,27.89188578546611,By what percentage did housing credit outstanding for all ADIs grow from 2021Q4 to 2026Q2? Answer in %.
+haiku,E,hard,X08,false_abstain,7.263631,7.263630902792473,What was the compound annual growth rate of the residential property price index from 2019Q4 to 2025Q4? Answer
+haiku,E,hard,X10,false_abstain,None,1.9999999999999991,What was the largest gap between the standard variable and the discounted variable owner-occupier rates in any
+haiku,E,hard,X17,false_abstain,4,4,How many times did the RBA change the cash rate target between January and September 2026 (month-end values)?
+haiku,E,hard,X18,false_abstain,294.94,294.9377619906659,"How much higher was the monthly repayment on a $600,000, 30-year loan at the discounted variable owner-occupie"
+sonnet,B,hard,X10,wrong_value,1.97,1.9999999999999991,What was the largest gap between the standard variable and the discounted variable owner-occupier rates in any
+sonnet,E,original,D02,false_abstain,3616.61,3616.613366998792,"What is the monthly repayment on a $600,000, 30-year (360 months) principal-and-interest loan at the discounte"
+sonnet,E,original,H05,false_abstain,"Foreign subsidiary banks, Major banks, Other domestic banks,","['Foreign subsidiary banks', 'Major banks', 'Other domestic ",Rank the four lender groups from the highest to the lowest non-performing housing loan ratio in 2025Q1. Give t
+sonnet,E,original,H10,false_abstain,1439.95,1439.9540935846776,"A new $600,000, 30-year (360 months) principal-and-interest loan is written at the discounted variable owner-o"
+sonnet,E,original,H17,false_abstain,0.6813,0.6812746377572569,"Since 2019Q2, what was the largest one-quarter fall in the interest burden, in percentage points? Give it as a"
+sonnet,E,original,H20,false_abstain,0,0,How many of the four lender groups had a higher non-performing housing loan ratio in 2026Q2 than in 2025Q1? An
+sonnet,E,hard,X02,false_abstain,1,1,In how many quarters from 2019Q1 to 2026Q2 was the non-performing loan ratio of Other domestic banks higher th
+sonnet,E,hard,X08,false_abstain,7.26,7.263630902792473,What was the compound annual growth rate of the residential property price index from 2019Q4 to 2025Q4? Answer
+sonnet,E,hard,X10,wrong_value,1.97,1.9999999999999991,What was the largest gap between the standard variable and the discounted variable owner-occupier rates in any
+sonnet,E,hard,X17,false_abstain,4,4,How many times did the RBA change the cash rate target between January and September 2026 (month-end values)?
+sonnet,D,original,U15,false_answer,0.0,None,What was the major banks' non-performing housing loan ratio in 2018Q4?

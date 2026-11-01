@@ -1,0 +1,57 @@
+model,config,cat,n,accuracy
+haiku,A,Lookup,10,0.1
+haiku,A,Change,8,0.125
+haiku,A,Extremes,8,0.0
+haiku,A,Compare groups,8,0.0
+haiku,A,Derived,8,0.0
+haiku,A,Hard,20,0.05
+haiku,A,Cannot answer,16,1.0
+haiku,G,Lookup,10,0.1
+haiku,G,Change,8,0.25
+haiku,G,Extremes,8,0.0
+haiku,G,Compare groups,8,0.25
+haiku,G,Derived,8,0.0
+haiku,G,Hard,20,0.05
+haiku,G,Cannot answer,16,0.375
+haiku,B,Lookup,10,1.0
+haiku,B,Change,8,1.0
+haiku,B,Extremes,8,1.0
+haiku,B,Compare groups,8,1.0
+haiku,B,Derived,8,1.0
+haiku,B,Hard,20,1.0
+haiku,B,Cannot answer,16,1.0
+haiku,C,Lookup,10,1.0
+haiku,C,Change,8,1.0
+haiku,C,Extremes,8,1.0
+haiku,C,Compare groups,8,1.0
+haiku,C,Derived,8,1.0
+haiku,C,Hard,20,0.95
+haiku,C,Cannot answer,16,1.0
+sonnet,A,Lookup,10,0.1
+sonnet,A,Change,8,0.0
+sonnet,A,Extremes,8,0.0
+sonnet,A,Compare groups,8,0.0
+sonnet,A,Derived,8,0.0
+sonnet,A,Hard,20,0.05
+sonnet,A,Cannot answer,16,1.0
+sonnet,G,Lookup,10,0.1
+sonnet,G,Change,8,0.0
+sonnet,G,Extremes,8,0.125
+sonnet,G,Compare groups,8,0.25
+sonnet,G,Derived,8,0.0
+sonnet,G,Hard,20,0.1
+sonnet,G,Cannot answer,16,0.562
+sonnet,B,Lookup,10,1.0
+sonnet,B,Change,8,1.0
+sonnet,B,Extremes,8,1.0
+sonnet,B,Compare groups,8,1.0
+sonnet,B,Derived,8,1.0
+sonnet,B,Hard,20,0.95
+sonnet,B,Cannot answer,16,1.0
+sonnet,C,Lookup,10,1.0
+sonnet,C,Change,8,1.0
+sonnet,C,Extremes,8,1.0
+sonnet,C,Compare groups,8,1.0
+sonnet,C,Derived,8,1.0
+sonnet,C,Hard,20,1.0
+sonnet,C,Cannot answer,16,1.0

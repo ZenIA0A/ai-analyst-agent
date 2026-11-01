@@ -1,0 +1,116 @@
+    model config   n  correct  accuracy  ci_lo  ci_hi  answerable_acc  unanswerable_acc  bad_answers  answers_given  bad_rate  false_abstain  format_error  calls  out_tokens  in_tokens  seconds  cost_per_100
+0   haiku      A  78       19     0.244  0.162  0.349           0.048             1.000            0              3     0.000             59             0  1.000     242.038    228.795    5.131         0.040
+1   haiku      G  78       12     0.154  0.090  0.250           0.097             0.375           58             64     0.906              8             0  1.000     564.538    214.795    4.899         0.055
+2   haiku      B  78       78     1.000  0.953  1.000           1.000             1.000            0             62     0.000              0             0  2.487     752.449   6192.038   10.965         0.129
+3   haiku      C  78       77     0.987  0.931  0.998           0.984             1.000            0             61     0.000              1             0  2.628     890.974   6569.205   11.884         0.145
+4  sonnet      A  78       18     0.231  0.151  0.336           0.032             1.000            1              3     0.333             59             0  1.000     112.910    228.795    5.242         0.623
+5  sonnet      G  78       15     0.192  0.120  0.293           0.097             0.562           53             59     0.898             10             0  1.000     264.385    214.795    5.270         0.765
+6  sonnet      B  78       77     0.987  0.931  0.998           0.984             1.000            1             62     0.016              0             0  2.500     279.256   9158.026   11.079         1.926
+7  sonnet      C  78       78     1.000  0.953  1.000           1.000             1.000            0             62     0.000              0             0  2.628     317.385   9506.846   11.796         2.087
+{
+ "haiku: A vs B": {
+  "only_second": 59,
+  "only_first": 0,
+  "p": 0.0
+ },
+ "haiku: G vs B": {
+  "only_second": 66,
+  "only_first": 0,
+  "p": 0.0
+ },
+ "haiku: B vs C": {
+  "only_second": 0,
+  "only_first": 1,
+  "p": 1.0
+ },
+ "sonnet: A vs B": {
+  "only_second": 59,
+  "only_first": 0,
+  "p": 0.0
+ },
+ "sonnet: G vs B": {
+  "only_second": 62,
+  "only_first": 0,
+  "p": 0.0
+ },
+ "sonnet: B vs C": {
+  "only_second": 1,
+  "only_first": 0,
+  "p": 1.0
+ },
+ "A: haiku vs sonnet": {
+  "only_second": 0,
+  "only_first": 1,
+  "p": 1.0
+ },
+ "G: haiku vs sonnet": {
+  "only_second": 8,
+  "only_first": 5,
+  "p": 0.5811
+ },
+ "B: haiku vs sonnet": {
+  "only_second": 0,
+  "only_first": 1,
+  "p": 1.0
+ },
+ "C: haiku vs sonnet": {
+  "only_second": 1,
+  "only_first": 0,
+  "p": 1.0
+ }
+}
+{
+ "haiku": {
+  "blocked": 5,
+  "blocked_were_wrong": 0,
+  "blocked_were_right": 5,
+  "fixed_after_retry": 0,
+  "broken_by_guard": 1,
+  "wrong_before": 0,
+  "wrong_after": 1,
+  "bad_before": 0,
+  "bad_after": 0
+ },
+ "sonnet": {
+  "blocked": 5,
+  "blocked_were_wrong": 1,
+  "blocked_were_right": 4,
+  "fixed_after_retry": 1,
+  "broken_by_guard": 0,
+  "wrong_before": 1,
+  "wrong_after": 0,
+  "bad_before": 1,
+  "bad_after": 0
+ }
+}
+{
+ "haiku|no rule": {
+  "n": 10,
+  "followed": 0,
+  "correct": 10,
+  "mentioned_note": 0,
+  "followed_and_guard_passes": 0
+ },
+ "haiku|with rule": {
+  "n": 10,
+  "followed": 0,
+  "correct": 10,
+  "mentioned_note": 0,
+  "followed_and_guard_passes": 0
+ },
+ "sonnet|no rule": {
+  "n": 10,
+  "followed": 0,
+  "correct": 10,
+  "mentioned_note": 1,
+  "followed_and_guard_passes": 0
+ },
+ "sonnet|with rule": {
+  "n": 10,
+  "followed": 0,
+  "correct": 10,
+  "mentioned_note": 0,
+  "followed_and_guard_passes": 0
+ }
+}
+saved

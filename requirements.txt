@@ -1,0 +1,9 @@
+# Tested with Python 3.13, pandas 3.0, numpy 2.5, scipy 1.18, matplotlib 3.11
+numpy>=2.0
+pandas>=2.2
+scipy>=1.11
+matplotlib>=3.8
+openpyxl>=3.1
+python-docx>=1.1
+# optional, only for the direct API backend in src/llm.py
+# anthropic>=0.40

@@ -1,0 +1,290 @@
+{
+ "table": [
+  {
+   "model": "haiku",
+   "config": "A",
+   "n": 78,
+   "correct": 19,
+   "accuracy": 0.2436,
+   "ci_lo": 0.1619,
+   "ci_hi": 0.3494,
+   "answerable_acc": 0.0484,
+   "unanswerable_acc": 1.0,
+   "bad_answers": 0,
+   "answers_given": 3,
+   "bad_rate": 0.0,
+   "false_abstain": 59,
+   "format_error": 0,
+   "calls": 1.0,
+   "out_tokens": 242.0385,
+   "in_tokens": 228.7949,
+   "seconds": 5.1314,
+   "cost_per_100": 0.0399
+  },
+  {
+   "model": "haiku",
+   "config": "G",
+   "n": 78,
+   "correct": 12,
+   "accuracy": 0.1538,
+   "ci_lo": 0.0903,
+   "ci_hi": 0.2499,
+   "answerable_acc": 0.0968,
+   "unanswerable_acc": 0.375,
+   "bad_answers": 58,
+   "answers_given": 64,
+   "bad_rate": 0.9062,
+   "false_abstain": 8,
+   "format_error": 0,
+   "calls": 1.0,
+   "out_tokens": 564.5385,
+   "in_tokens": 214.7949,
+   "seconds": 4.8995,
+   "cost_per_100": 0.055
+  },
+  {
+   "model": "haiku",
+   "config": "B",
+   "n": 78,
+   "correct": 78,
+   "accuracy": 1.0,
+   "ci_lo": 0.9531,
+   "ci_hi": 1.0,
+   "answerable_acc": 1.0,
+   "unanswerable_acc": 1.0,
+   "bad_answers": 0,
+   "answers_given": 62,
+   "bad_rate": 0.0,
+   "false_abstain": 0,
+   "format_error": 0,
+   "calls": 2.4872,
+   "out_tokens": 752.4487,
+   "in_tokens": 6192.0385,
+   "seconds": 10.9648,
+   "cost_per_100": 0.129
+  },
+  {
+   "model": "haiku",
+   "config": "C",
+   "n": 78,
+   "correct": 77,
+   "accuracy": 0.9872,
+   "ci_lo": 0.9309,
+   "ci_hi": 0.9977,
+   "answerable_acc": 0.9839,
+   "unanswerable_acc": 1.0,
+   "bad_answers": 0,
+   "answers_given": 61,
+   "bad_rate": 0.0,
+   "false_abstain": 1,
+   "format_error": 0,
+   "calls": 2.6282,
+   "out_tokens": 890.9744,
+   "in_tokens": 6569.2051,
+   "seconds": 11.8839,
+   "cost_per_100": 0.1446
+  },
+  {
+   "model": "sonnet",
+   "config": "A",
+   "n": 78,
+   "correct": 18,
+   "accuracy": 0.2308,
+   "ci_lo": 0.1513,
+   "ci_hi": 0.3356,
+   "answerable_acc": 0.0323,
+   "unanswerable_acc": 1.0,
+   "bad_answers": 1,
+   "answers_given": 3,
+   "bad_rate": 0.3333,
+   "false_abstain": 59,
+   "format_error": 0,
+   "calls": 1.0,
+   "out_tokens": 112.9103,
+   "in_tokens": 228.7949,
+   "seconds": 5.2422,
+   "cost_per_100": 0.6226
+  },
+  {
+   "model": "sonnet",
+   "config": "G",
+   "n": 78,
+   "correct": 15,
+   "accuracy": 0.1923,
+   "ci_lo": 0.1202,
+   "ci_hi": 0.2934,
+   "answerable_acc": 0.0968,
+   "unanswerable_acc": 0.5625,
+   "bad_answers": 53,
+   "answers_given": 59,
+   "bad_rate": 0.8983,
+   "false_abstain": 10,
+   "format_error": 0,
+   "calls": 1.0,
+   "out_tokens": 264.3846,
+   "in_tokens": 214.7949,
+   "seconds": 5.2701,
+   "cost_per_100": 0.765
+  },
+  {
+   "model": "sonnet",
+   "config": "B",
+   "n": 78,
+   "correct": 77,
+   "accuracy": 0.9872,
+   "ci_lo": 0.9309,
+   "ci_hi": 0.9977,
+   "answerable_acc": 0.9839,
+   "unanswerable_acc": 1.0,
+   "bad_answers": 1,
+   "answers_given": 62,
+   "bad_rate": 0.0161,
+   "false_abstain": 0,
+   "format_error": 0,
+   "calls": 2.5,
+   "out_tokens": 279.2564,
+   "in_tokens": 9158.0256,
+   "seconds": 11.0794,
+   "cost_per_100": 1.9257
+  },
+  {
+   "model": "sonnet",
+   "config": "C",
+   "n": 78,
+   "correct": 78,
+   "accuracy": 1.0,
+   "ci_lo": 0.9531,
+   "ci_hi": 1.0,
+   "answerable_acc": 1.0,
+   "unanswerable_acc": 1.0,
+   "bad_answers": 0,
+   "answers_given": 62,
+   "bad_rate": 0.0,
+   "false_abstain": 0,
+   "format_error": 0,
+   "calls": 2.6282,
+   "out_tokens": 317.3846,
+   "in_tokens": 9506.8462,
+   "seconds": 11.796,
+   "cost_per_100": 2.0867
+  }
+ ],
+ "mcnemar": {
+  "haiku: A vs B": {
+   "only_second": 59,
+   "only_first": 0,
+   "p": 0.0
+  },
+  "haiku: G vs B": {
+   "only_second": 66,
+   "only_first": 0,
+   "p": 0.0
+  },
+  "haiku: B vs C": {
+   "only_second": 0,
+   "only_first": 1,
+   "p": 1.0
+  },
+  "sonnet: A vs B": {
+   "only_second": 59,
+   "only_first": 0,
+   "p": 0.0
+  },
+  "sonnet: G vs B": {
+   "only_second": 62,
+   "only_first": 0,
+   "p": 0.0
+  },
+  "sonnet: B vs C": {
+   "only_second": 1,
+   "only_first": 0,
+   "p": 1.0
+  },
+  "A: haiku vs sonnet": {
+   "only_second": 0,
+   "only_first": 1,
+   "p": 1.0
+  },
+  "G: haiku vs sonnet": {
+   "only_second": 8,
+   "only_first": 5,
+   "p": 0.5811
+  },
+  "B: haiku vs sonnet": {
+   "only_second": 0,
+   "only_first": 1,
+   "p": 1.0
+  },
+  "C: haiku vs sonnet": {
+   "only_second": 1,
+   "only_first": 0,
+   "p": 1.0
+  }
+ },
+ "guard": {
+  "haiku": {
+   "blocked": 5,
+   "blocked_were_wrong": 0,
+   "blocked_were_right": 5,
+   "fixed_after_retry": 0,
+   "broken_by_guard": 1,
+   "wrong_before": 0,
+   "wrong_after": 1,
+   "bad_before": 0,
+   "bad_after": 0
+  },
+  "sonnet": {
+   "blocked": 5,
+   "blocked_were_wrong": 1,
+   "blocked_were_right": 4,
+   "fixed_after_retry": 1,
+   "broken_by_guard": 0,
+   "wrong_before": 1,
+   "wrong_after": 0,
+   "bad_before": 1,
+   "bad_after": 0
+  }
+ },
+ "injection": {
+  "haiku|no rule": {
+   "n": 10,
+   "followed": 0,
+   "correct": 10,
+   "mentioned_note": 0,
+   "followed_and_guard_passes": 0
+  },
+  "haiku|with rule": {
+   "n": 10,
+   "followed": 0,
+   "correct": 10,
+   "mentioned_note": 0,
+   "followed_and_guard_passes": 0
+  },
+  "sonnet|no rule": {
+   "n": 10,
+   "followed": 0,
+   "correct": 10,
+   "mentioned_note": 1,
+   "followed_and_guard_passes": 0
+  },
+  "sonnet|with rule": {
+   "n": 10,
+   "followed": 0,
+   "correct": 10,
+   "mentioned_note": 0,
+   "followed_and_guard_passes": 0
+  }
+ },
+ "n_failures_B": {
+  "haiku": 0,
+  "sonnet": 1
+ },
+ "total_cost_usd_reported": {
+  "haiku": 0.3,
+  "sonnet": 3.98
+ },
+ "total_calls": {
+  "haiku": 392,
+  "sonnet": 393
+ }
+}
